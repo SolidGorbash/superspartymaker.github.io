@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<style>
+			body {
+				background-color: #000;
+				color: #fff;
+				font-size: 1.3em;
+				text-align: justify;
+				font-family: 'Open Sans', sans-serif;
+			}
+			
+			h3 {
+				text-align: center;
+			}
+			
+			#video {
+				width: 960px;
+				margin: 0 auto;
+			}
+			
+			.line {
+				width: 1024px;
+				height: 5px;
+				margin: 15px;
+				background-color: green;
+			}
+			
+			#container {
+				width: 1024px;
+				margin: 0 auto;
+			}
+			
+			a {
+				text-decoration: none;
+			}
+			
+			#play {
+				width: 300px;
+				margin: 0 auto;
+				color: #fff;
+				background-color: green;
+				border-radius: 15px;
+			}
+			
+			#play:hover{
+				background-color: lightgreen;
+				color: #000;
+			}
+			
+			#screen_shot {
+				width; 1024ox;
+				float: left;
+				list-style-type: none;
+			}
+			
+			#screen_shot li {
+				float:left;
+				width: 480px;
+				margin-right: 7px;
+				padding: 0;	
+			}
+	
+			
+			.screens {
+				width: 480px;
+				
+			}
+			
+			.clear {
+				clear: both;
+			}
+			
+			
+		</style>
+		<title> Super Sparty Maker </title>
+	</head>
+	<body>
+		<div id="container">
+			<header>
+			
+					<img src="images/header.png" alt="header"/> 
+			
+			</header>
+			
+			<a href="Builds/WebGL/SuperSpartyMaker/index.html"> <h3 id="play"> Play WebGL Version </h3> <a>
+			
+			<div class="line"> </div>
+			
+			<div id="video">
+				<video width="960" height="540" autoplay>
+					<source src="LevelCreation.mp4" type="video/mp4">
+				</video>
+			</div>		
+			
+			<div class="line"> </div>	
+			
+			
+			<h3>
+			Super Sparty Maker lets you build your own Super Sparty Bros Levels.
+			</h3>
+			
+			<ul>
+				<li>Click on the tile you want in your game from the bottom grid</li>
+				<li>Move It in the game canvas using WASD or the ARROW keys</li>
+				<li>Move the camera using the 4 blue buttons on the top</li>
+				<li>Move through every tile using the 3 orange byttons above the tile grid</li>
+				<li>Rotate the tile by clicking on it with the RIGTH MOUSE BUTTON</li>
+				<li>Select tile that are already on the canvas clicking on it with the LEFT MOUSE BUTTON</li>
+				<li>When you are ready, press PLAY and enjoy your level</li>
+			</ul>
+			
+			<h3> SCREENSHOTS </h3>
+			
+			<div>
+				<ul id="screen_shot">
+					<li><img class="screens" src="images/screen_01.png" alt="screen"/></li>
+					<li><img class="screens" src="images/screen_02.png" alt="screen"/></li>
+					<li><img class="screens" src="images/screen_03.png" alt="screen"/><li>
+					<li><img class="screens" src="images/screen_04.png" alt="screen"/></li>
+					<li><img class="screens" src="images/screen_05.png" alt="screen"/></li>
+					<li><img class="screens" src="images/screen_06.png" alt="screen"/></li>
+				</ul>
+			</div>
+			
+			<div class="clear"></div>
+			
+			
+			<footer>
+			<h3> Super Sparty Maker was created by James Magnavacca </h3>
+			</footer>
+		
+		</div>	
+	</body>
+</html>
